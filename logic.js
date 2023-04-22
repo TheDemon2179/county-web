@@ -37,8 +37,8 @@ function count() {
   }
   
   function clearText() {
-    var confirm = confirm("Are you sure you want to clear the text?");
-    if (confirm) {
+    var isConfirmed = confirm("Are you sure you want to clear the text?");
+    if (isConfirmed) {
       document.getElementById("text").value = "";
     }
-  }
+}
