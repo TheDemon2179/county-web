@@ -20,7 +20,6 @@ function count() {
     var specialCharacterCount = countSpecialCharacters(text);
 
     document.getElementById("character-count").innerHTML = characterCount;
-    document.getElementById("wildcard-count").innerHTML = wildcardCount;
     document.getElementById("word-count").innerHTML = wordCount;
     document.getElementById("special-character-count").innerHTML = specialCharacterCount;
 }
